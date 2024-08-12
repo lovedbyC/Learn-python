@@ -1,6 +1,6 @@
 def guess_game():
     i = 0
-    num = 9
+    num = random.randrange(10)
     while i < 3:
         guess = int(input("Guess: "))
         i += 1
